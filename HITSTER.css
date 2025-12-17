@@ -1,0 +1,57 @@
+/* Corps de la page */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* centre verticalement */
+  align-items: center;     /* centre horizontalement */
+  background-color: #fff;  /* fond blanc */
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #000; /* texte noir */
+}
+
+/* Logo */
+.logo {
+  width: 200px;
+  margin-bottom: 2em;
+}
+
+/* Titre principal */
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+/* Sous-titre */
+h2 {
+  font-size: 1.2em;
+  font-weight: normal;
+  margin-bottom: 2em;
+  color: #333;
+}
+
+/* Lecteur audio */
+audio {
+  width: 300px;
+  outline: none;
+}
+
+/* Responsive pour petit écran */
+@media (max-width: 400px) {
+  audio {
+    width: 90%;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1em;
+  }
+  .logo {
+    width: 150px;
+  }
+}
